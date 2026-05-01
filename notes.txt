@@ -1,1 +1,525 @@
+HTML 
 
+Frontend ---->(HTML, CSS, JS) (any frontend library - bootstrap) React (Facebbok), Angular(Google)
+
+Project 1 (a) - CRUD OPERATION 
+
+C - data create send to Database
+R - Read the data from Database
+U - Update the data
+D - Delete the Data
+
+Project 1 (b) - Fetch the data to the frontend using the backend APIs
+
+
+
+Backend ---->
+ 
+Database  ----> 
+
+Software --> Web Development 
+
+Domains 
+
+Medical Domain
+
+Edcucatinal Domain
+
+Banking Domain
+
+Insurance Domain
+
+Fintech domain 
+
+Ecommerce Domain
+
+
+
+HTML - 
+
+tags 
+
+attributes
+
+values 
+
+
+<> --> opening tags
+</> --> closing tags
+
+</ >  ---> self closing tag 
+
+Web app contents 
+
+header part 
+
+body part 
+
+footer part
+
+
+<html>
+
+</html>
+
+Text Formatting 
+
+
+Group together HTML
+
+
+span --> inline container to group elements for styling
+ 
+div --> block container to group elements for styling
+
+List
+order list
+unorder list 
+
+Buttons
+
+Tables
+
+Forms
+
+Header, Main, Footer
+
+
+CSS 
+
+Inline css, Internal css, External css
+
+colors: name, rgb avlues[], hexa decimal, hsl values[]
+
+Font 
+
+Borders
+
+
+Shadows
+
+margins 
+
+float - allows other element to flow around it 
+
+
+
+overflow - property that sets the desrired behavior when conten not fit in the parent element/box (overflow)
+
+visible
+hidden
+scroll
+auto
+
+display - property specify an if/how an element is displayed
+
+block-level - start on a new line , take up the full width of the avalibale space
+(h1, div, p, form, header, footer)
+
+inline-level - do not start from new line, width is limited to what is needed
+(span, a, img, etc)
+
+
+height and width 
+
+Positions  
+
+    relative - positoned reletive to where it normally is 
+    fixed - positioned relative to viewport
+    absolute - postioned relateive to nearest ancestor
+    sticky - postion based on the scrool position 
+    static - default postion for an element 
+
+
+Combinators = explans the relationship betwwen listed selectors
+
+  space = decesdent 
+  > = child 
+  ~ = general sibling
+  + = adjacent sibling 
+
+Pseudo-classes 
+
+Pseudo-elements - keyword added after a slector that used to style specific part of an element
+
+pagenation 
+
+dropdown 
+
+Image gallery 
+
+flexbox
+
+Transformations -
+
+Animations - 
+
+Javascript - It is Programmming lang, Browser Scripting lang
+
+
+Varaiables - a container that stores a value - Behaves as if it it were value it contains
+
+declaration let a; 
+assigment  a = 20;
+
+
+arthimteic operators - operands (values, varaibles, etc)
+operators(+, -, *, /, %)
+
+// 11 = x * 5;
+
+operator precedence 
+
+1) () - pranthesis
+2) exponents
+3) multiplication and division
+4) addition and subration
+
+
+let result = 1 + 2 * 3 + 4 ** 2;
+
+
+type converstion - change a the dataype of a value to another string, numberm booleans
+
+
+
+const - conatant --> varible that cant br changed
+
+
+Math Object  
+
+Math - builtin in object that provides a collections of properties and methods 
+
+
+Conditional Statement - if a condition is true, execute some code, if not, do something else.
+
+types 
+
+if Statement
+if else Statement
+else if statement 
+nested if statement or ladder statement 
+
+Checked Property 
+
+Ternary operator - a shortcut to if and else statements - which helos as to assign a varaiable bases on a condition
+
+condition ? codeIfTrue : codeIfFalse;
+
+
+Switches - can be efficent replacement to many else if statements
+
+
+
+String methods - allow as to manipulate and work with test (Strings)
+
+string slicing - create a substring from a portion of another string
+
+Method Chaining - Calling one method after another method in continous line of code
+
+logical operators :- used to combine or manipulate boolean values (true or false)
+
+AND &&
+OR ||
+NOT !
+
+
+Strict Equality 
+
+= - assigment operator 
+== - comparison operator(compare if values are equal)
+=== - Strict equality (compare if values & datatype are equal)
+!= - inEquality operator
+!== - Strict inEquality operator
+
+
+
+Control statements or looping statements
+
+while, do while --> Tradtional loops
+
+start - where we start 
+
+end - where we need to stop the loop based on the condtions - if conditon true loop will run if condition false means loope will stop 
+
+increase or decrease the value - i++, ++i, i--, --i, i = i + 1
+
+for loop - 
+
+for each loop ---> advanced loop 
+
+function - a section of reusable code, Decalre once, use it whenever we want 
+
+Call the function name to execute that code.
+
+Variable Scope - where a variable is recogonized and acceessible (local vs global)
+
+Common DS in all the pro lang
+
+Arrays - varaible like structure that can hold more than 1 values  - Based on index
+
+Spread operator - ... allows us to iterate such as array or string to expanded into a seperate elements (unpacks the elements)
+
+Rest Parameters - (...rest) - allow a function work with varaiable number of argumantes by bundling them into an array
+spread - expands an array into sepeate elements
+rest - bundle sperate elements into an array 
+
+
+function func1(Parameters) {
+
+}
+
+func1(arguments);
+
+Callbacks - a function that is passed as an argument to another function 
+
+used to handle asynshronous operation 
+
+Reading the file 
+Network requests 
+interacting with Database 
+api calling 
+
+"Hey, when you done, call this next"
+
+forEach() - method used to iterate over the elements of an array and apply a specified function (callback)
+to each element 
+
+array.forEach(callback);
+element, index, array 
+
+
+
+Map() - accepts the callback and applies that function to each element of an array,, return a new array.
+
+
+filter() = creates a new array by filtering out the elements
+// based on boolean values
+
+
+.reduce() = reduce the elements of an array to an single value 
+
+
+function declaration - decalre a reusable block of code that performs a specific task 
+
+function hello() {
+  console.log("hellow students");
+}
+
+function expression -  a way to define the function as values or varaibles or parameters
+
+
+const hello = function() {
+   console.log("hellow students");
+}
+
+
+arrow function - concise way to write function expressio, good for simple fucction that you use only once 
+
+
+(parameter) => some code
+
+
+OOPS ---> 
+
+Principle of Object Oriented Programmming 
+
+Abstraction --> hiding the internal details showing only the requried detils
+Encapsulation ---> 
+Inheritance --> 
+Polymorphism 
+
+SPeclization 
+
+Class VS Object
+class and object in javascript 
+
+
+
+
+
+object in javascript - a collection of releated properties and/or methods can reperesent real world objects (people, student, places, products)
+
+object = {key:value, function()}
+
+this - reference to the object where THIS is used (the object depeneds on the immdeiate context) 
+
+person.name = this.name
+
+
+constructors - special method for defining the properties and methods of objects  which are have common properties.
+
+
+
+classes - ES6 feature - provides a more structured and cleaner way to work with objects compared to traditional constructor fuctions
+
+Ex: Static keyword, Encapsulation, inheritance
+
+Static - keyword that defines properties or methods that belong to the class itself rather then the object created from that class (class owns anything static, not the objects)
+
+
+inheritance - allows a new class to inherit properties and methods from an exiting class (parent -> child) 
+
+helps with code reusablity 
+
+
+Super keyword  - used classes to call the constructor or access the properties and methods of a parent (super classs) 
+
+this = this object
+super = the parent 
+
+
+
+Getter - Special method that makes a property readable 
+Setter - special method than make a property writable 
+
+valiadte and modify a value when reading/writing a property 
+
+
+Task 
+
+1. Getters and Setters Tasks
+Task 1: Student Marks Manager
+
+Create a Student class:
+
+Properties: name, marks
+Use getter to return grade:
+90+ → A
+75+ → B
+else → C
+Use setter to update marks (should not allow negative values)
+
+👉 Expected learning: Encapsulation + validation
+
+Task 2: Bank Account Balance
+
+Create a BankAccount class:
+
+Private property: _balance
+Getter → return balance
+Setter → allow deposit only if amount > 0
+
+👉 Add condition: No direct access to _balance
+
+🔹 2. Inheritance Tasks
+Task 3: Employee → Manager
+
+Create:
+
+Employee class:
+properties: name, salary
+method: getDetails()
+Manager class extends Employee:
+add: department
+override getDetails()
+
+👉 Expected learning: Method overriding + reuse
+
+Task 4: Vehicle System
+
+Create:
+
+Vehicle class → method start()
+Car class extends Vehicle → method drive()
+Bike class extends Vehicle → method ride()
+
+👉 Call all methods using objects
+
+🔹 3. this Keyword Tasks
+Task 5: Object Method Context
+
+Create an object:
+
+properties: name, age
+method: getDetails() using this
+
+👉 Print: "My name is Dinesh and age is 26"
+
+Task 6: Fix this Issue
+const user = {
+  name: "Dinesh",
+  greet: function() {
+    setTimeout(function() {
+      console.log(this.name);
+    }, 1000);
+  }
+};
+user.greet();
+
+👉 Task:
+
+Fix the issue so it prints "Dinesh"
+
+👉 Expected learning: this inside callback
+
+🔹 4. super Keyword Tasks
+Task 7: Constructor Chaining
+
+Create:
+
+Person class → name
+Student extends Person → course
+
+👉 Use super() to initialize parent
+
+Task 8: Method Calling using super
+
+Create:
+
+Parent class → method show()
+Child class → override show() and call parent method using super.show()
+🔹 5. Combined Real-Time Task (Best for Interview)
+Task 9: E-commerce User System (Real-Time)
+
+Create:
+
+User class → name, email
+Seller extends User → productList
+Admin extends User → manage users
+
+👉 requirements:
+
+Use getter/setter for email validation
+Use this keyword properly
+Use super in constructor
+
+
+Advanced Javascript
+
+
+Destructuring - extract values from arryas and objects, then assign them to variable in convienent way 
+
+[] = to perform array Destructuring
+{} = to perform object Destructuring
+
+
+nested object - object inside another object 
+allow us to reperesent more complex data structures 
+child object is enlclosed by a parent object 
+
+
+// employee{address{}, ContactInfo{}}
+/ ShoppingCart{Bottel{}, Shirt{}, Ball{}}
+
+
+sorting - used to sort elements of an array in place, sorts elements as strings in lexicographic order, not alphabetical order
+
+lexigographic = (alphabet + numbers + symbols) as strings 
+
+sort()
+
+
+suffle an array 
+
+Dates Objects  - object that constains vcalues that reperesent dates and times, these date objects can be changed and formatted
+
+
+Closures ---> function defined inside of another function, the inner function hass access to the varaiables and scope of the outer function.
+
+Allow for private variables and state maintence
+
+frequntly used in Angularjs, Reactjs, Vuejs, Nextjs 
+
+
+We can Encapsulate the varaiable make them as private - prons of closures
